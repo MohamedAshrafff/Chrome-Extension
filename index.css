@@ -3,7 +3,7 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
-    background-image: url(Backg.png);
+    background-image: url(yellow.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -28,9 +28,19 @@ input {
     color: white;
     padding: 10px 20px;
     border: none;
+}
+
+button {
     font-weight: bold;
     letter-spacing: 0.5;
     cursor: pointer;
+}
+
+#tab-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
 }
 
 #delete-btn {
@@ -38,9 +48,6 @@ input {
     color: black;
     padding: 8px 18px;
     border: 2px solid black;
-    font-weight: bold;
-    letter-spacing: 0.5;
-    cursor: pointer;
 }
 
 ul {
